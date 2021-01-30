@@ -11,13 +11,13 @@
 }
 
 body{
-    color: #39a6b2;
+    color: var(--tertiary-color);
     font-family: helvetica, Arial, sans-serif;
 }
 
 header{
     padding: 20px 35px;
-    background-color: #39a6b2;
+    background-color: var(--tertiary-color);
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -135,7 +135,7 @@ header nav ul li a:hover{
 }
 
 .hero-form button:hover{
-    background-color: #39a6b2;
+    background-color: var(--tertiary-color);
 }
 
 .form-input{
@@ -168,7 +168,7 @@ header nav ul li a:hover{
 
 .intro p{
     line-height: 1.7;
-    color: #39a6b2;
+    color: var(--tertiary-color);
     width: 80%;
     font-size: 20px;
     margin: 0 auto;
@@ -187,7 +187,7 @@ header nav ul li a:hover{
     margin: 50px auto;
     padding-bottom: 50px;
     width: 80%;
-    border-bottom: 1px solid #39a6b2;
+    border-bottom: 1px solid var(--tertiary-color);
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -234,7 +234,7 @@ header nav ul li a:hover{
 }
 
 .step-text p{
-    color: #39a6b2;
+    color: var(--tertiary-color);
     font-size: 18px;
 }
 
@@ -365,7 +365,7 @@ header nav ul li a:hover{
 
 .contact-form button:hover{
     color: var(--primary-color);
-    background: #39a6b2;
+    background: var(--tertiary-color);
 }
 
 .contact-info a{
